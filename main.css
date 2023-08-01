@@ -13,7 +13,7 @@ body {
     font-family: 'Russo One', sans-serif;
     font-family: 'Sofia Sans Condensed', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    
+    position: relative;
 }
 
 .container {
@@ -22,6 +22,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Small */
@@ -49,7 +52,7 @@ body {
   }
 
 .parent {
-    margin: 20px auto;
+    margin: 180px auto;
     max-width: 800px;
     height: 300px;
     background-color: #eee;
