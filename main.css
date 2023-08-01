@@ -52,14 +52,14 @@ body {
   }
 
 .parent {
-    margin: 180px auto;
-    max-width: 800px;
-    height: 300px;
+    margin: 160px auto;
+    max-width: 1000px;
+    height: 400px;
     background-color: #eee;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px 10px;
+    gap: 25px 25px;
 }
 
 @media (max-width: 600px) {
@@ -90,7 +90,7 @@ body {
     font-size: 300px;
     position: absolute;
     top: 110px;
-    right: 40px;
+    right: 80px;
     opacity: .3;
     z-index: 2;
 }
@@ -106,6 +106,7 @@ body {
     background-color: #fff;
     grid-column: span 1;
     grid-row: span 2;
+    color: #777;
 }
 .cort3 p {
     opacity: .8;
@@ -114,6 +115,7 @@ body {
     background-color: #fff;
     grid-column: span 1;
     grid-row: span 1;
+    color: #777;
 }
 
 .cont5 {
@@ -165,15 +167,17 @@ line-height: 1;
 } 
 
 p {
-    font-weight: 600;
+    font-weight: 800;
     font-size: 13px;
     padding-top: 10px;
     line-height: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 q {
     font-weight: 500;
-    font-size: 8px;
+    font-size: 12px;
     opacity: .7;
     line-height: 60%;
 }
